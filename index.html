@@ -1,123 +1,65 @@
-<!-- index.html -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Pink House Shop — Елегантна білизна та купальники</title>
-  <link rel="stylesheet" href="style.css" />
-  <meta name="description" content="Ніжна білизна, мрійливі купальники та затишний домашній одяг для сучасних жінок." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pink House Shop</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="#">Pink House</a>
-      <nav class="nav">
-        <a href="#collections">Колекції</a>
-        <a href="#new">Новинки</a>
-        <a href="#instagram">Instagram</a>
-        <a href="#contacts">Контакти</a>
-      </nav>
-      <div class="cta">
-        <a href="#shop" class="btn">Переглянути</a>
-      </div>
-    </div>
-  </header>
 
+  <!-- Hero Section -->
   <section class="hero">
-    <div class="hero-inner container">
-      <div class="hero-copy">
-        <h1>Ніжні силуети для спокійних днів</h1>
-        <p>Ручна білизна та купальники, що відчуваються як поезія на шкірі.</p>
-        <a href="#collections" class="btn btn-outline">Дивитись колекції</a>
-      </div>
-      <div class="hero-feature">
-        <img src="/assets/hero.jpg" alt="Pink House featured product" />
-      </div>
+    <img src="assets/hero.jpg" alt="Головне фото" class="hero-image">
+    <div class="hero-text">
+      <h1>Pink House Shop</h1>
+      <p>Твій дім жіночності, стилю та натхнення</p>
+      <a href="#shop" class="btn">Переглянути колекцію</a>
     </div>
   </section>
 
-  <section id="collections" class="collections container">
-    <h2 class="section-title">Нові надходження</h2>
-    <div class="grid">
-      <article class="card">
-        <img src="/assets/p1.jpg" alt="Делікатний мереживний комплект" />
-        <h3>Мереживний комплект</h3>
-        <p class="price">₴ 990</p>
-      </article>
-      <article class="card">
-        <img src="/assets/p2.jpg" alt="Шовкова сукня-комбінація" />
-        <h3>Шовкова сукня-комбінація</h3>
-        <p class="price">₴ 1 250</p>
-      </article>
-      <article class="card">
-        <img src="/assets/p3.jpg" alt="Затишна велюрова піжама" />
-        <h3>Велюрова піжама</h3>
-        <p class="price">₴ 1 350</p>
-      </article>
-      <article class="card">
-        <img src="/assets/p4.jpg" alt="Літній бікіні" />
-        <h3>Літній бікіні</h3>
-        <p class="price">₴ 799</p>
-      </article>
+  <!-- About Section -->
+  <section class="about">
+    <h2>Про нас</h2>
+    <p>Pink House Shop — це простір, де кожна жінка знаходить натхнення, стиль і ніжність у кожній деталі. Ми створюємо речі, які підкреслюють твою унікальність.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="shop" class="gallery">
+    <h2>Наша колекція</h2>
+    <div class="gallery-grid">
+      <img src="assets/p1.jpg" alt="Фото товару 1">
+      <img src="assets/p2.jpg" alt="Фото товару 2">
+      <img src="assets/p3.jpg" alt="Фото товару 3">
+      <img src="assets/p4.jpg" alt="Фото товару 4">
     </div>
   </section>
 
-  <section id="instagram" class="instagram container">
-    <h2 class="section-title">З нашого Instagram</h2>
-    <p class="muted">Справжні клієнти. Справжній комфорт. Натисніть, щоб придбати.</p>
-    <div class="insta-grid">
-      <a class="insta-item" href="#"><img src="/assets/pic1.jpg" alt="Instagram 1" /></a>
-      <a class="insta-item" href="#"><img src="/assets/pic2.jpg" alt="Instagram 2" /></a>
-      <a class="insta-item" href="#"><img src="/assets/pic3.jpg" alt="Instagram 3" /></a>
-      <a class="insta-item" href="#"><img src="/assets/pic4.jpg" alt="Instagram 4" /></a>
+  <!-- Highlights Section -->
+  <section class="highlights">
+    <h2>Моменти натхнення</h2>
+    <div class="highlight-grid">
+      <img src="assets/pic1.jpg" alt="Момент 1">
+      <img src="assets/pic2.jpg" alt="Момент 2">
+      <img src="assets/pic3.jpg" alt="Момент 3">
+      <img src="assets/pic4.jpg" alt="Момент 4">
     </div>
   </section>
 
-  <section id="store-locations" class="locations container">
-    <div class="locations-inner">
-      <div>
-        <h3>Завітайте до нас</h3>
-        <p>ТРЦ Lavina Mall, Київ
-        <br/>ТРЦ Zlata Plaza, Рівне</p>
-      </div>
-      <div>
-        <h3>Потрібна допомога?</h3>
-        <p>Консультації та оптові замовлення
-        <br/><a href="mailto:hello@pinkhouse.ua">hello@pinkhouse.ua</a></p>
-      </div>
-    </div>
+  <!-- Newsletter Section -->
+  <section class="newsletter">
+    <h2>Будь ближче до Pink House</h2>
+    <p>Отримуй новини, натхнення та знижки першою</p>
+    <form>
+      <input type="email" placeholder="Введи свій email">
+      <button type="submit">Підписатись</button>
+    </form>
   </section>
 
-  <section class="newsletter container">
-    <div class="newsletter-inner">
-      <h2>Приєднуйтесь до спільноти Pink House</h2>
-      <p class="muted">Отримуйте ранній доступ до новинок, поповнень та ексклюзивних пропозицій.</p>
-      <form class="newsletter-form" action="#" method="post">
-        <input type="email" name="email" placeholder="Ваш email" required />
-        <button class="btn" type="submit">Підписатися</button>
-      </form>
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div class="brand">
-        <a class="logo" href="#">Pink House</a>
-        <p class="muted">Ніжна білизна, купальники та домашній одяг, створені з любов’ю.</p>
-      </div>
-      <div class="links">
-        <a href="#">Повернення</a>
-        <a href="#">Доставка</a>
-        <a href="#">Політика конфіденційності</a>
-      </div>
-      <div class="social">
-        <a href="https://www.instagram.com/pink_house_shop/">@pink_house_shop</a>
-      </div>
-    </div>
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Pink House Shop. Всі права захищені.</p>
   </footer>
 
 </body>
 </html>
-
-/* -------------
